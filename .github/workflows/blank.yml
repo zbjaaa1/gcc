@@ -22,7 +22,7 @@ jobs:
       - name: Run a one-line script
         run: |
           sudo apt update
-          sudo apt install gcc-4.7.0
+          sudo apt install mpfr mpc glibc
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
